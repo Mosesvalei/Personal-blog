@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron bg-transparent mt-2">
+        <h1 class="display-4 text-center ">Personal blog</h1>
+        <hr class="my-4 bg-dark">
+        <p class="lead text-center "><span class=" h2">MyBlog</span> involves a custom website for ceating and sharing your blogs as well as allowing other users to read and comment on the blogs. The blog also allows random display of quotes for user interaction. </p>
+        <hr class="my-4 bg-dark">
+        <div class="row contact_us text-center">
+            <div class="col-md-12">
+              <h3 class="" id="m2">CONTACT US.</h3>
+            </div>
+            <div class="col-md-12">
+                <a href="https://www.linkedin.com/in/moses-mwanzia-b80860173/" class="btn" target="blank">
+                    <img src="{{ url_for('static', filename='linkedin.png') }}">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
